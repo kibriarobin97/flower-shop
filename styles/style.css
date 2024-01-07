@@ -156,38 +156,103 @@ header {
     max-width: 450px;
     text-align: center;
 }
-.hot-deals .hot-deals-text *{
+
+.hot-deals .hot-deals-text * {
     margin-bottom: 20px;
 }
+
 .hot-deals .hot-deals-text h2 {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
 }
-.hot-deals .hot-deals-text h2 .important{
+
+.hot-deals .hot-deals-text h2 .important {
     color: #E55473;
 }
-.hot-deals .hot-deals-img{
+
+.hot-deals .hot-deals-img {
     max-width: 320px;
 }
 
-.insta-section{
+.insta-section {
     width: 75%;
     max-width: ;
     margin: 0 auto 100px auto;
 }
-.section-heading{
+
+.section-heading {
     margin-bottom: 40px;
 }
-.insta-info{
+
+.insta-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.insta-info .insta-img{
+
+.insta-info .insta-img {
     max-width: 300px;
 }
-.insta-info .insta-img img{
+
+.insta-info .insta-img img {
     width: 100%;
+}
+
+.newsletter {
+    margin-bottom: 130px;
+}
+
+.newsletter-content {
+    background-image: url('../images/bg9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    padding: 60px 0;
+}
+
+.newsletter form {
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter form input {
+    flex-grow: 1;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(39, 39, 39, 0.60);
+    background: #FFF;
+}
+
+.footer-section {
+    background-color: #111010;
+}
+.footer-content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+.footer-content h2 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-content h2 .important-footer {
+    color: #FFF;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-content small{
+    color: rgba(255, 255, 255, 0.40);
 }
