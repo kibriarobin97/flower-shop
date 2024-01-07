@@ -10,7 +10,8 @@ p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 }
-button{
+
+button {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -21,8 +22,22 @@ button{
     cursor: pointer;
     transition: all 1s;
 }
-button:hover{
+
+button:hover {
     background-color: #89142d;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
 /* header styles */
@@ -42,16 +57,81 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.banner .banner-text *{
+
+.banner .banner-text * {
     margin-bottom: 30px;
     max-width: 525px;
 }
+
 .banner .banner-text h1 {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
 }
-.banner .banner-img img{
+
+.banner .banner-img img {
     width: 100%;
     vertical-align: middle;
+}
+
+/* featured section styles */
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 24px;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0 0;
+    padding: 20px 25px 0;
+    height: 400px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .blue {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .pink {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+    text-decoration-line: underline;
+}
+
+.section-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 75%;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.section-info{
+    text-align: center;
+}
+.section-info .section-img{
+    margin-bottom: 20px;
 }
